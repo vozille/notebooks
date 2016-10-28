@@ -7,10 +7,11 @@ from numpy import *
 from numpy.linalg import *
 import matplotlib.pyplot as plt
 from matplotlib import cm
+import matplotlib.animation as animation
 
 ###### Flow definition #########################################################
-maxIter = 5000*50  # Total number of time iterations.
-Re = 220.0  # Reynolds number.
+maxIter = 30000  # Total number of time iterations.
+Re = 600.0  # Reynolds number.
 nx = 520
 ny = 180
 ly = ny - 1.0
@@ -51,6 +52,9 @@ vel = fromfunction(lambda d, x, y: (1 - d) * uLB * (1.0 + 1e-4 * sin(y / ly * 2 
 feq = equilibrium(1.0, vel)
 fin = feq.copy()
 
+fig = plt.figure()
+vid = []
+
 ###### Main time loop ##########################################################
 for time in range(maxIter):
     fin[i1, -1, :] = fin[i1, -2, :]  # Right wall: outflow condition.
@@ -63,13 +67,17 @@ for time in range(maxIter):
     feq = equilibrium(rho, u)  # Left wall: Zou/He boundary condition.
     fin[i3, 0, :] = fin[i1, 0, :] + feq[i3, 0, :] - fin[i1, 0, :]
     fout = fin - omega * (fin - feq)  # Collision step.
-    for i in range(q): fout[i, obstacle] = fin[noslip[i], obstacle]
+    for i in range(q):
+        fout[i, obstacle] = fin[noslip[i], obstacle]
     for i in range(q):  # Streaming step.
         fin[i, :, :] = roll(roll(fout[i, :, :], c[i, 0], axis=0), c[i, 1], axis=1)
 
-    if (time % 100 == 0):  # Visualization
-        plt.clf()
-        plt.imshow(sqrt(u[0] ** 2 + u[1] ** 2).transpose(), cmap=cm.Reds)
-        plt.savefig("C:\\Users\\Admin\\PycharmProjects\\untitled2\\images\\vel." + str(time / 100).zfill(4) + ".png")
-
-    print "done " + str(time + 1)
+    if time % 50 == 0:  # Visualization
+        #plt.clf()
+        vid.append([plt.imshow(sqrt(u[0] ** 2 + u[1] ** 2).transpose(), cmap=cm.seismic)])
+        # plt.savefig("./images/vel." + str(time / 100).zfill(4) + ".png")
+    if (time-1) % 100 == 0:
+        print("done " + str(time + 1))
+im_ani = animation.ArtistAnimation(fig, vid, interval=40, repeat_delay=3000,
+    blit=True)
+plt.show()
