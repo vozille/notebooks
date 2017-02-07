@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfe30b3-dfbf-4de0-8355-686dcff4cdfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/FindMeAShoe/FindMeAShoe.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/images/vel.00.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/images/vel.01.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/images/vel.02.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/images/vel.03.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/images/vel.04.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/video/shedding.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7thSemProject/vortex_shedding.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nowfloats/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nowfloats/Q1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nowfloats/Q1_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nowfloats/ans1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nowfloats/nowfloats.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/FindMeAShoe/proposal.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="notebooks.iws" />
@@ -46,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMeAShoe.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindMeAShoe.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/FindMeAShoe.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -55,11 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch_4.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proposal.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/proposal.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="378">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -84,9 +84,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
         <option value="$PROJECT_DIR$/7thSemProject/vortex_shedding.py" />
         <option value="$PROJECT_DIR$/projects/FindMeAShoe/input.txt" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt" />
         <option value="$PROJECT_DIR$/projects/FindMeAShoe/data.cpp" />
         <option value="$PROJECT_DIR$/projects/FindMeAShoe/FindMeAShoe.ipynb" />
+        <option value="$PROJECT_DIR$/projects/FindMeAShoe/readme.md" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt" />
+        <option value="$PROJECT_DIR$/projects/FindMeAShoe/proposal.txt" />
       </list>
     </option>
   </component>
@@ -631,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/data.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -651,6 +645,33 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/FindMeAShoe/proposal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

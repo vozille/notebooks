@@ -1,0 +1,28 @@
+Technique 1:
+Using ipython notebooks.
+Advantages :
+Python is one of the main languages used in data analysis, and ipython is a great cross-platform data sharing platform.
+Python also has a lot of libraries which can make complicated analysis of data much easier.
+Scalable with complex data having hundreds of parameters
+
+Technique 2:
+A simple hashtable using existing Java code for android/ PHP for web:
+We just use feet sizes as keys to summarise data.
+
+Advantages:
+Quick to implement, no learning overheads
+
+Disadvantages:
+Complex analysis difficult
+Scalability issues
+
+Technique 3:
+Excel sheets
+
+Advantages:
+Non technical people can work with it
+
+Disadvantages:
+Scalability
+Complex analysis difficult
+Reducing ROI as company grows
