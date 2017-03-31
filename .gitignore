@@ -8,6 +8,12 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.idea/
+bin/
+include/
+local/
+pip-selfcheck.json
+lib/
 env/
 build/
 develop-eggs/
